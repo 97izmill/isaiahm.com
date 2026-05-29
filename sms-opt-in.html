@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SMS Opt-In &mdash; Isaiah Miller</title>
+<title>SMS Subscription &mdash; Isaiah Miller</title>
 <style>
 body { font-family: -apple-system, system-ui, sans-serif; max-width: 720px; margin: 60px auto; padding: 0 20px; color: #222; line-height: 1.6; }
 h1, h2 { line-height: 1.3; }
@@ -12,26 +12,26 @@ a { color: #0066cc; }
 </style>
 </head>
 <body>
-<h1>SMS Opt-In Disclosure and Record of Consent</h1>
-<p><strong>Effective Date:</strong> May 26, 2026<br>
+<h1>SMS Subscription Disclosure and Subscriber Record</h1>
+<p><strong>Effective Date:</strong> May 28, 2026<br>
 <strong>Operator:</strong> Isaiah Miller (sole proprietor)<br>
 <strong>Contact:</strong> isaiah@patientmagnet.com</p>
 
 <h2>Program Name</h2>
-<p>"Personal Inventory and Health Alerts" &mdash; a personal automated notification tool operated by Isaiah Miller for Isaiah Miller's own use.</p>
+<p>"Inventory and Health Alerts" &mdash; an automated notification application operated by Isaiah Miller, currently in private operation with a single subscriber.</p>
 
 <h2>Program Description</h2>
-<p>The operator runs a script on the operator's own server that monitors public information from a public retailer website and sends SMS messages to the operator's own mobile phone when a vehicle matching the operator's saved search criteria appears. The script also sends SMS health alerts when the script fails. The operator is the sole sender and the sole recipient. No messages are sent to any other person.</p>
+<p>The application is an automated script that runs on the operator's server. It monitors public information from public retailer websites and sends automated SMS notifications to subscribers when a vehicle matching their saved search criteria appears, and when the application's monitoring routines fail. All messages are application-generated; none are manually composed.</p>
 
-<h2>How the Recipient (Isaiah Miller) Opts In</h2>
-<p>The recipient is also the operator. The recipient opted in by manually adding the recipient's own mobile phone number to the "recipients" list in the program's local configuration file. Adding a number to that list is a deliberate, affirmative act that constitutes express written consent to receive SMS messages from the program. The recipient performed this action on May 25, 2026.</p>
+<h2>How a Subscriber Opts In</h2>
+<p>A subscriber opts in by being added to the "subscribers" list in the application's configuration file. The current sole subscriber is the operator (Isaiah Miller), who self-subscribed on May 25, 2026 by adding their mobile phone number to the configuration file. Adding a number to the subscribers list is a deliberate, affirmative act that constitutes express written consent to receive automated SMS messages from the application.</p>
 
-<h2>Record of Opt-In</h2>
-<p>The recipient's mobile number is recorded in the program's local configuration file on the operator's private server. A redacted structural excerpt of the configuration file is shown below. Reviewers from The Campaign Registry, Twilio, or any mobile carrier may contact the operator at isaiah@patientmagnet.com to verify the opt-in record.</p>
+<h2>Record of Subscription</h2>
+<p>The current subscriber list is recorded in the application's configuration file on the operator's private server. A redacted structural excerpt of the configuration file is shown below. Reviewers from The Campaign Registry, Twilio, or any mobile carrier may contact the operator at isaiah@patientmagnet.com to verify the subscription record.</p>
 
-<div class="config-block">recipients:
+<div class="config-block">subscribers:
   - name:           "Isaiah Miller (operator)"
-    phone:          "[REDACTED &mdash; operator's personal mobile]"
+    phone:          "[REDACTED &mdash; subscriber's mobile]"
     consent_date:   "2026-05-25"
     consent_method: "self-added to configuration"</div>
 
@@ -41,8 +41,8 @@ a { color: #0066cc; }
 <h2>Message and Data Rates</h2>
 <p>Msg &amp; data rates may apply.</p>
 
-<h2>Opting Out</h2>
-<p>The recipient may opt out at any time by replying <strong>STOP</strong> to any message from the program, or by removing the recipient's number from the configuration file. Replying <strong>HELP</strong> will return the operator's contact email.</p>
+<h2>Unsubscribing</h2>
+<p>A subscriber may unsubscribe at any time by replying <strong>STOP</strong> to any message from the application, or by being removed from the subscribers list in the configuration file. Replying <strong>HELP</strong> will return the operator's contact email.</p>
 
 <h2>Privacy</h2>
 <p>Mobile information and SMS opt-in/consent data will not be shared with third parties or affiliates for marketing or promotional purposes. See the full Privacy Policy at <a href="https://isaiahm.com/privacy.html">https://isaiahm.com/privacy.html</a>.</p>
